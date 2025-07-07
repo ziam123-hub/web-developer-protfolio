@@ -37,7 +37,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 50px;
+    margin: 10px 100px;
 }
 
 .nav-title{
@@ -65,8 +65,8 @@ nav ul li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    height: 500px;
-    margin: 0 35px 0 50px;
+    height: 550px;
+    margin: 0 35px 0 100px;
 }
 
 .banner-content{
