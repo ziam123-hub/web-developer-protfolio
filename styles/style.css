@@ -36,14 +36,19 @@
 }
 
 .section-description{
+    padding: 20px 80px;
     font-size: 18px;
     color: #757575;
+}
+.text-center{
+    text-align: center;
 }
 /* header */
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position:top left, bottom right;
+    height: 710px;
 }
 
 /* nav style */
@@ -104,6 +109,7 @@ nav ul li a{
 
 .banner-profile-pic{
     width: 580px;
+    height: 100%;
 }
 
 /* main */
@@ -116,8 +122,9 @@ nav ul li a{
 
 .about{
     border-radius: 10px;
-    padding: 50px 150px;
+    padding: 50px 150px 10px;
     text-align: center;
+    margin: 70px ;
 }
 
 .item-description{
@@ -127,4 +134,97 @@ nav ul li a{
 .about-items{
     display: flex;
     justify-content: space-between;
+    padding: 0 100px;
+}
+.item-title{
+    color: #757575;
+    padding: 0;
+    margin-bottom:0 ;
+}
+.item-description{
+    color: #181818;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+/* what-i-do section */
+.what-i-do{
+    padding: 150px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 30px;
+}
+
+.skills-description{
+    padding: 20px 10px;
+}
+
+.skills{
+    text-align: center;
+    margin-top: 40px;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    box-shadow: 0 5px rgb(0, 0, 0,5%);
+}
+
+
+ /* Resume section */
+
+ .resume-container{
+    display: flex;
+    gap: 50px;
+    padding: 70px 10px;
+ }
+
+ .resume-column{
+    padding: 0 50px;
+    
+ }
+
+ .experience{
+    margin: 50px 0;
+ }
+
+ .experience-sub-title{
+    color: #474747;
+ }
+
+ .experience-description{
+    color: #757575;
+ }
+ 
+
+ /* footer  */
+ .footer-container{
+    display: flex;
+    margin: 40px 0;
+    padding: 20px 0;
+ }
+
+ .footer-column{
+    text-align: center;
+    width: 50%;
+ }
+
+ form input{
+
+    padding: 10px 30px;
+    height: 40px;
+    display: block;
+    margin: 10px 100px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+ }
+
+.message{
+    height: 150px;
+    width: 300px;
+    margin: 10px 100px;
+    padding: 50;
+    border-radius: 5px;
+    border: none;
 }
